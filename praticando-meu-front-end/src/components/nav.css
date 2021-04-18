@@ -37,7 +37,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-  div {
+  .nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -45,12 +45,12 @@
     height: auto;
     text-align: center;
   }
-  div ul {
+  .nav ul {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: auto;
   }
-  div ul li {
+  .nav ul li {
     margin: 10px;
   }
 }
