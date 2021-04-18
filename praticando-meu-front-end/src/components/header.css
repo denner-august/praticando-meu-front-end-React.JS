@@ -1,1 +1,74 @@
-/* No CSS *//*# sourceMappingURL=header.css.map */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header div {
+  width: 50vw;
+  text-align: left;
+}
+
+.header img {
+  width: 100%;
+}
+
+.header .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 0px 10px;
+  font-size: 1.8rem;
+}
+
+.header .texto h2 {
+  margin: 50px 0px;
+}
+
+.header .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 690px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header div {
+    width: 100%;
+    height: auto;
+  }
+  .header .texto {
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+    font-size: 1.6rem;
+  }
+  .header .texto h2, .header .texto p {
+    margin: 50px 0px;
+  }
+}
+/*# sourceMappingURL=header.css.map */
