@@ -1,0 +1,76 @@
+.playlist{
+    margin-top: 30px;
+    ul{
+            display: flex;
+            margin: 10px 15px;
+            padding: 10px;        
+            height: auto;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;    
+
+        div{
+            display: flex;
+
+            height: auto;
+            width: 30%;
+
+            padding: 13px;        
+            margin: 10px 10px;
+            
+            border: 1px solid black;
+            border-radius: 10px;
+
+            p{
+                text-align: left;
+                margin: 5px;
+            }
+
+            a{
+                text-decoration: none;
+                color: black;
+                transition: 0.2s;
+                display: block;
+                font-size: 20px;
+                margin-top: 15px;
+             
+            }
+    
+            a:hover{
+                font-size: 25px;
+                color: rgb(89, 89, 167);
+            }
+
+            img{
+                width: 100%;
+            }
+    
+        }
+    }
+}
+
+@media screen and (max-width:660px){
+    .playlist{
+     
+        ul{
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+
+            div{
+                width: 60%;
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    .playlist{
+        ul{
+            div{
+                width: 85%;
+            }
+        }
+    }
+}

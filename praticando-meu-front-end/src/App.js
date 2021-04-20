@@ -5,6 +5,7 @@ import React from 'react';
 import Nav from "./components/Nav"
 import Header from "./components/Header"
 import Desafio from "./components/Desafio"
+import Playlist from "./components/Playlist"
 
 
 function alerta(){
@@ -22,6 +23,7 @@ class App extends React.Component{
        <Nav/>
        <Header/>
        <Desafio/>
+       <Playlist/>
        
       </div>
     );
