@@ -1,0 +1,88 @@
+.desafio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: auto;
+  margin: 15px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.desafio div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.desafio div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 15px;
+  padding: 10px;
+  width: 45%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.desafio div ul p {
+  text-align: left;
+  margin: 5px;
+}
+
+.desafio div ul img {
+  width: 100%;
+}
+
+.desafio div ul a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  display: block;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.desafio div ul a:hover {
+  font-size: 25px;
+  color: #5959a7;
+}
+
+@media screen and (max-width: 705px) {
+  .desafio {
+    padding: 5px;
+    margin: 5px;
+  }
+  .desafio div ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px 15px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+}
+/*# sourceMappingURL=desafio.css.map */
