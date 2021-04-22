@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./desafio.css"
-import Imagedesafio from "../desafio-image/mm-contabilidade-react.png"
+import Imagedesafio from "../desafio-image/mm-contabilidade-mobile.png"
 
 
 
