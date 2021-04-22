@@ -61,11 +61,11 @@
 }
 
 .footer div form input {
-  color: black;
+  height: 50px;
   padding: 15px;
+  color: black;
   border: none;
   border-bottom: 1px solid black;
-  height: 50px;
 }
 
 .footer div form textarea, .footer div form button {
@@ -73,19 +73,19 @@
 }
 
 .footer div form textarea {
+  resize: none;
   margin-top: 15px;
   padding: 15px;
-  resize: none;
   height: 200px;
   border: 1px solid black;
 }
 
 .footer div form button {
-  margin-top: 10px;
   height: 50px;
   font-size: 1.2rem;
-  border: none;
+  margin-top: 10px;
   cursor: pointer;
+  border: none;
   background-color: white;
   border: 1px solid black;
 }
@@ -125,6 +125,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .footer {
+    height: auto;
+    padding: 50px 0px;
+  }
   .footer div {
     width: 100%;
   }
