@@ -1,0 +1,135 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+.footer img {
+  width: 50vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50vw;
+  padding: 10px;
+  color: black;
+  background-color: #3b5998;
+}
+
+.footer div form {
+  height: auto;
+  padding: 30px;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.footer div form h1 {
+  margin-bottom: 15px;
+}
+
+.footer div form input, .footer div form textarea, .footer div form button {
+  width: 70%;
+  padding: 15px;
+}
+
+.footer div form input, .footer div form textarea {
+  font-size: 1.2rem;
+}
+
+.footer div form input {
+  color: black;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+
+.footer div form textarea, .footer div form button {
+  border-radius: 5px;
+}
+
+.footer div form textarea {
+  margin-top: 15px;
+  padding: 15px;
+  resize: none;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.footer div form button {
+  margin-top: 10px;
+  height: 50px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.footer div form button:hover {
+  color: white;
+  background-color: #2a2a30;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    background-image: url(../image/footer/mobileback.jpg);
+    background-size: cover;
+  }
+  .footer img {
+    display: none;
+  }
+  .footer div {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .footer div form {
+    width: 70%;
+  }
+  .footer div form h1 {
+    font-size: 1.4rem;
+  }
+  .footer div form input, .footer div form textarea, .footer div form button {
+    width: 100%;
+  }
+  .footer div form input, .footer div form textarea {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer div {
+    width: 100%;
+  }
+  .footer div form {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

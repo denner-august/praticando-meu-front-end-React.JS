@@ -7,6 +7,7 @@ import Header from "./components/Header"
 import Desafio from "./components/Desafio"
 import Playlist from "./components/Playlist"
 
+import Footer from "./components/Footer"
 
 function alerta(){
   Swal.fire('sejá bem vindo',
@@ -24,6 +25,7 @@ class App extends React.Component{
        <Header/>
        <Desafio/>
        <Playlist/>
+       <Footer/>
        
       </div>
     );
