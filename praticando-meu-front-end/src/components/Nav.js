@@ -7,11 +7,10 @@ export class nav extends Component {
             <div className='nav'>
                 <h1>Praticando Meu Front-end</h1>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Desafio</li>
-                    <li>Videos</li>
+                    <li><a href='#Desafio'>Desafio</a></li>
+                    <li><a href='#Playlist '>Playlist</a></li>
                     <li>Ferramentas</li>
-                    <li>Sugestões</li>
+                    <li><a href='#formulario'>Sugestões</a></li>
                 </ul>
             </div>
         )

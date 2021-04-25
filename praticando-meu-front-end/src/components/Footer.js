@@ -46,7 +46,7 @@ export class Footer extends Component {
           }
 
         return (
-            <div className='footer'>
+            <div className='footer' id='formulario'>
                 <img src={Imageproframadora} alt='mulher programando'/>
 
                <div>

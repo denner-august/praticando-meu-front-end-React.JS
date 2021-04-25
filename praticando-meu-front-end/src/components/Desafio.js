@@ -9,12 +9,12 @@ export class Desafio extends Component {
 
     render() {
         return (
-            <div className='desafio'>
+            <div id='Desafio' className='desafio'>
                <h1>Desafios</h1>
                
              <div>
              <ul>
-                <div className='desafios_selection'>
+                <div  className='desafios_selection'>
                         <img src={Imagedesafio} alt='desafio'/>
                         <h3>MM-CONTABILIDADE</h3>
                         <p> <strong>Esse foi um dos primeiros projetos que Desenvolvi, acredito que não seja tão complexo e você conseguira praticar seus primeiros conhecimento</strong></p>

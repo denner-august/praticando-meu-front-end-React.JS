@@ -1,4 +1,5 @@
 .nav{
+
     background-color: #182529;
     height: 15vh;
     display: flex;
@@ -15,10 +16,15 @@
         justify-content: space-around;
         font-size: 20px;
         width: 400px;
-       
+
         li{
             font-size: 1.5rem;
             margin: 0px 10px;
+
+            a{
+               text-decoration: none;
+               color: white;
+            }
         }
 
         li:hover{

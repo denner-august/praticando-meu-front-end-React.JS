@@ -12,7 +12,7 @@ export class Playlist extends Component {
 
     render() {
         return (
-            <div className='playlist desafio'>
+            <div id='Playlist' className='playlist desafio'>
                 <h1>Playlist para seu Desenvolvimento</h1>
 
                <ul>
