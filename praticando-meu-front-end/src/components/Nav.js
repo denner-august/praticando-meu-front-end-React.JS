@@ -9,7 +9,7 @@ export class nav extends Component {
                 <ul>
                     <li><a href='#Desafio'>Desafio</a></li>
                     <li><a href='#Playlist '>Playlist</a></li>
-                    <li>Ferramentas</li>
+                    <li><a href='#ferramentas'>ferramentas</a></li>
                     <li><a href='#formulario'>Sugestões</a></li>
                 </ul>
             </div>

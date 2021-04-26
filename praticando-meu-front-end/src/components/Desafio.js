@@ -20,7 +20,7 @@ export class Desafio extends Component {
                         <p> <strong>Esse foi um dos primeiros projetos que Desenvolvi, acredito que não seja tão complexo e você conseguira praticar seus primeiros conhecimento</strong></p>
                         <a href="https://github.com/denner-august/Praticando-Meu-front-end-MM-CONTABILIDADE" target="_blank" rel="noopener noreferrer"><strong>Acessar</strong></a>
                 </div>
-               </ul>
+            </ul>
             
                
              </div>
