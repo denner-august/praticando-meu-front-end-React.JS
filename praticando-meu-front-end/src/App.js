@@ -5,6 +5,7 @@ import React from 'react';
 import Nav from "./components/Nav"
 import Header from "./components/Header"
 import Desafio from "./components/Desafio"
+import Ferramentas from "./components/Ferramentas"
 import Playlist from "./components/Playlist"
 
 import Footer from "./components/Footer"
@@ -25,6 +26,7 @@ class App extends React.Component{
        <Header/>
        <Desafio/>
        <Playlist/>
+       <Ferramentas/>
        <Footer/>
        
       </div>
