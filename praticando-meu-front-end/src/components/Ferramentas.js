@@ -16,7 +16,7 @@ export class Ferramentas extends Component {
     render() {
         return (
             <div id='ferramentas' className='Ferramentas desafio playlist'>
-                <h1>Desafio</h1>
+                <h1>Ferramentas</h1>
 
                 <ul id='lista'>
                     <div>
