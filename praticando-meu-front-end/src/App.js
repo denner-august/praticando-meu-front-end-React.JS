@@ -10,6 +10,9 @@ import Playlist from "./components/Playlist"
 
 import Footer from "./components/Footer"
 
+
+
+
 function alerta(){
   Swal.fire('sejá bem vindo',
   "este é um projeto ainda em desenvolvimento e pode conter falhas, caso tenha alguma sugestão em como podemos melhorar mande um email para nós no final da pagina",
