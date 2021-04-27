@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEO,YAFK,CACT,MAAM,CACF,GAAG,CAAA;EACC,KAAK,EAAE,KAAK;CAMf;;AATR,AAKW,YALC,CACT,MAAM,CACF,GAAG,CAGC,CAAC,CAAA;EACG,WAAW,EAAE,MAAM;CACtB",
+    "sources": [
+        "ferramentas.scss"
+    ],
+    "names": [],
+    "file": "ferramentas.css"
+}
