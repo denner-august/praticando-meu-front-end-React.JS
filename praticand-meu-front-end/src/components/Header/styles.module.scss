@@ -1,0 +1,15 @@
+.Container{
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: clamp(0.5rem, 80%, 2rem);
+    
+    background-color:var(--body-color-header);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
