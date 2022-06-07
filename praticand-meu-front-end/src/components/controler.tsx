@@ -1,4 +1,5 @@
 import { Apresentacao } from "./apresentacao";
+import { Footer } from "./footer";
 import Header from "./Header";
 
 export function Controler() {
@@ -6,6 +7,7 @@ export function Controler() {
     <>
       <Header />
       <Apresentacao />
+      <Footer />
     </>
   );
 }

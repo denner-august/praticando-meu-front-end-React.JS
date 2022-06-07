@@ -4,12 +4,53 @@
     min-height: 100px;
 
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 
     font-size: clamp(0.5rem, 80%, 2rem);
     
-    background-color:var(--body-color-header);
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    background-color: #CE505C;
+    color: #fff;
+    font-family: 'Roboto', sans-serif; // a fonte precisa ser instalada ainda
+
+    
+
+    nav{
+        padding: 0px 5px;
+        width: auto ;
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            li{
+                list-style: none;
+                margin: 0px 10px;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 1.2rem;
+                list-style-type: none;
+                
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Container{
+        flex-direction: column;
+        min-height: 140px;
+        padding: 10px 0px;
+
+        nav{ 
+            width: 100%;
+            
+            
+        }
+    }
 }

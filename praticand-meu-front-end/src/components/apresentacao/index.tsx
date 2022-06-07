@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 export function Apresentacao() {
   return (
     <section className={styles.Container}>
-      <div className={styles.image}>
+      <div className={styles.backgroundImage}>
         <h2>Melhore suas habilidades em front-end criando projetos reais</h2>
         <p>
           Resolva desafios reais de HTML, CSS e JavaScript enquanto trabalha com
