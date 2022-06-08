@@ -1,3 +1,4 @@
+import axios from "axios";
 import { useState } from "react";
 import styles from "./styles.module.scss";
 
@@ -6,7 +7,19 @@ export function Footer() {
   const [mensagem, setMensagem] = useState(String);
 
   function validation(e: { preventDefault: () => void }) {
+    //tratar o email para validar antes do envio real
     e.preventDefault();
+
+    if (email !== "" && mensagem !== "") {
+      return axios
+        .post("https://formspree.io/f/mrgrzrdv", {
+          email,
+          mensagem,
+        })
+        .then((data) => alert("e-mail enviado com sucesso"));
+    }
+
+    return alert("erro");
   }
 
   return (
